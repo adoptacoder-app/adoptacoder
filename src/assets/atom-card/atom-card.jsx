@@ -2,17 +2,19 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import "./atom-card.css"
 
-function GenericCard() {
+function GenericCard({name, bio}) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className="card">
       <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+      <Card.Body className="cardBody">
+        <Card.Title>{name}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Developer
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Text>
+          {bio}
+        </Card.Text>
+        <Button variant="primary" className="button">¡Adopta!</Button>
       </Card.Body>
     </Card>
   );
