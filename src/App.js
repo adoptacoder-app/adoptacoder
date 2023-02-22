@@ -1,7 +1,7 @@
 // import { Route, Routes } from "react-router";
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GenericButton from "./assets/atom-button/atom-button";
+import OutlinedButton from "./assets/atom-outlinedButton/atom-outlinedButton";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     // <Routes>
     //   <Route path="/" element={''}/>
     // </Routes>
-    <GenericButton/>
+    <OutlinedButton/>
   );
 }
 
