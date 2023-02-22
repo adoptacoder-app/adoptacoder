@@ -9,7 +9,7 @@ function App() {
     // <Routes>
     //   <Route path="/" element={''}/>
     // </Routes>
-    <GenericDropdown/>
+    <GenericDropdown title="Tu experiencia" option1="Junior" option2="Mid" option3="Senior"/>
   );
 }
 

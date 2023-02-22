@@ -2,17 +2,17 @@ import React from "react"
 import Dropdown from 'react-bootstrap/Dropdown';
 import "./atom-dropdown.css"
 
-function GenericDropdown() {
+function GenericDropdown({title, option1, option2, option3}) {
  return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Herramientas
+        {title}
       </Dropdown.Toggle>
 
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      <Dropdown.Menu className="dropdownMenu">
+        <Dropdown.Item className="item" href="#/action-1"> {option1} </Dropdown.Item>
+        <Dropdown.Item className="item" href="#/action-2"> {option2} </Dropdown.Item>
+        <Dropdown.Item className="item" href="#/action-3"> {option3} </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );
