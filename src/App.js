@@ -1,7 +1,7 @@
 // import { Route, Routes } from "react-router";
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import OutlinedButton from "./assets/atom-outlinedButton/atom-outlinedButton";
+import AdoptMeForm from "./assets/mol-form/form";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     // <Routes>
     //   <Route path="/" element={''}/>
     // </Routes>
-    <OutlinedButton/>
+    <AdoptMeForm/>
   );
 }
 
