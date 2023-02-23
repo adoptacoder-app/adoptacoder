@@ -1,0 +1,38 @@
+.titleFormEmpresa{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.titleFormEmpresa h1{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.titleFormEmpresa span{
+    color: var(--secondary);
+}
+
+#dropdown-basic{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-family: 'Fira Code', monospace;
+}
+
+.titleStack{
+    margin-bottom: 20px;
+}
+
+.searchCoder{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 40px 0;
+    font-weight: bold;
+}
+
+.submitButton{
+    padding: 7px 30px;
+}

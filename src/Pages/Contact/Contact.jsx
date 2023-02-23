@@ -1,6 +1,6 @@
 import AtomNavbar from '../../Components/atom-navbar/AtomNavbar'
 import CoderSnippet from '../../Components/atom-coderSnippet/atom-coderSnippet';
-import { useParams } from 'react-router-dom';import Form from 'react-bootstrap/Form';
+import { Link, useParams } from 'react-router-dom';import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './ContactStyle.css'
 import React, { useState, useEffect } from 'react';
@@ -26,12 +26,12 @@ function Contact() {
   return (
     
     <>
-    <header>
      <AtomNavbar/>
-     <h1>¿Quieres Hablar conmigo? </h1>
-    </header>
     <main>
-
+    <div className='titleContact'>
+      <h1>¿Quieres Hablar conmigo? </h1>
+    </div>
+    
     <CoderSnippet className="coder-card"
         img={item.avatar} 
         firstName={item.firstName} 
@@ -49,8 +49,9 @@ function Contact() {
       </Form.Group>
     </Form>
   
-
-    <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
+    <Link to='/'>
+      <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
+    </Link>
     </main>
     </>
     

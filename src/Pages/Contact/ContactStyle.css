@@ -1,7 +1,11 @@
-
+.titleContact{
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
 
 h1{
-    margin: 1em;
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
