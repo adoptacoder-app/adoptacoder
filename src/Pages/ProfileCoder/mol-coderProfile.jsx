@@ -4,6 +4,11 @@ import "./mol-coderProfile.css";
 import { useParams } from 'react-router-dom';
 import TechIcons from '../../Components/atom-techIcons/atom-techIcons';
 import AtomBio from "../../Components/atom-bio/AtomBio"
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+import AtomAgile from '../../Components/atom-agile/AtomAgile';
+
+
 
 function CoderProfile() {
   const { id } = useParams();
@@ -45,6 +50,11 @@ function CoderProfile() {
         laravel={item.laravel} 
         sql={item.sql} 
         />
+        <AtomAgile agile={item.agile} gitflow={item.gitflow} tdd={item.tdd}/>
+        <Link to={`/Contact/${id}`}>
+           <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
+        </Link>
+
     </div>
   );
 }
