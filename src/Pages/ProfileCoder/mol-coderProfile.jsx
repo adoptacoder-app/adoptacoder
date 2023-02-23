@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import CoderSnippet from '../../Components/atom-coderSnippet/atom-coderSnippet';
 import "./mol-coderProfile.css";
 import { useParams } from 'react-router-dom';
-import TechIcons from '../atom-techIcons/atom-techIcons';
-import AtomBio from "../atom-bio/AtomBio"
+import TechIcons from '../../Components/atom-techIcons/atom-techIcons';
+import AtomBio from "../../Components/atom-bio/AtomBio"
 
 function CoderProfile() {
   const { id } = useParams();

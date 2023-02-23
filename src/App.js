@@ -2,7 +2,8 @@ import { Route, Routes } from "react-router";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home/Home";
-import CoderProfile from "./Components/mol-coderProfile/mol-coderProfile";
+import CoderProfile from "./Pages/ProfileCoder/mol-coderProfile";
+import FormUser from "./Pages/Form/FormUser";
 
 function App() {
   return (
