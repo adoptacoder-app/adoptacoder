@@ -1,0 +1,22 @@
+nav{
+    height: 10vh;
+}
+
+.hero{
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title{
+    width: 90%;
+    height: 130px;
+}
+
+.caption{
+    width: 90%;
+    height: 120px;
+}
