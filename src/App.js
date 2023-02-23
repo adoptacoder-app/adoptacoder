@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import CoderSnippet from "./assets/atom-coderSnippet/atom-coderSnippet";
 //import CodersList from "./assets/mol-codersList/mol-codersList";
 import CoderProfile from "./Components/mol-coderProfile/mol-coderProfile";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
