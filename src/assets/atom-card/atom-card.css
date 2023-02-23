@@ -1,0 +1,22 @@
+.card{
+    border-color: var(--secondary);
+}
+
+.cardBody{
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background-color: var(--background-color);
+    color: var(--dark);
+    border-color: var(--secondary);
+}
+
+.button:hover{
+    background-color: var(--gap);
+    color: var(--dark);
+    border-color: var(--gap);
+    justify-content: center;
+}

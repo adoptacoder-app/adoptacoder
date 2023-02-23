@@ -1,22 +1,26 @@
 import React from "react";
-import "./navbar.css";
+import "./atomNavbar.css";
 import { Nav, Navbar,} from "react-bootstrap";
-//import { ReactComponent as Logo } from "./logo.svg";
+import { Icon } from '@iconify/react';
+import "./atomNavbar.css";
+
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function AtomNavbar() {
   return (
+ 
     <Navbar collapseOnSelect expand="lg" className="navbarStyles" sticky="top">
-      <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
-      <Navbar.Collapse id="responsive-navbar-nav">
+         <p className="logo"><span className="logoBrackets">[</span><span className="logoAdopta">adopt/a/</span><span className="logoCoder">coder</span><span className="logoBrackets">]</span></p>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav"><Icon icon="circum:menu-burger" color="#e8f3fc" width="30" className="burgerIcon" /></Navbar.Toggle>
+      <Navbar.Collapse id="responsive-navbar-nav"  >
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="#pricing">Perfil</Nav.Link>
-          <Nav.Link href="#deets">Mensajes</Nav.Link>
+          <Nav.Link href="#">Home</Nav.Link>
+          <Nav.Link href="#">Perfil</Nav.Link>
+          <Nav.Link href="#">Mensajes</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <span className="logo">[adopt/a/coder]</span>
     </Navbar>
   );
 }

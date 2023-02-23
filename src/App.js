@@ -1,12 +1,18 @@
-import { Route, Routes } from "react-router";
+// import { Route, Routes } from "react-router";
 import "./App.css"
-import Navbar from "./assets/navbar/AtomNavbar";
+import AtomNavbar from "./assets/navbar/AtomNavbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Navbar/>}/>
-    </Routes>
+    // <Routes>
+    //   <Route path="/" element={''}/>
+    // </Routes>
+    <>
+    <AtomNavbar/>
+    </>
   );
 }
 
