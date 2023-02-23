@@ -1,56 +1,48 @@
-# [adopt/a/coder] :boom:
+# [adopt/a/coder]
 ***
 
-This project was created to connect coders with enterprises which want to take care of them, since both are looking for concret and special skills, and there is not time to loose.
-
-
-## Build status: page_facing_up:
-[![Build Status](https://travis-ci.org/user/repo.svg?branch=master)](https://github.com/JessRm04/laresistenciacoviders)
+This project was created to connect coders with enterprises which want to take care of them, since both of them are looking for concret and special skills, and there is not time to lose.
 
 ## :iphone: Mobile Graphic reference
-​
-![Image text](./assets/img/img_redme/Captura%205.PNG)
 
-### This is the adopt/a/coder's logo
-![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
-### These are the page views:
-![This is an image](./src/assets/img/img/icons/landing-navbar.png)
-![This is an image](./src/assets/img/img/icons/landing-symptom.png)
-![This is an image](./src/assets/img/img/icons/landing-prevent.png)
-![This is an image](./src/assets/img/img/icons/landing-spreads.png)
-![This is an image](./src/assets/img/img/icons/faqs-spreads.png)
-![This is an image](./src/assets/img/img/icons/wash-spreads.png)
-![This is an image](./src/assets/img/img/icons/mobile-spreads.png)
-![This is an image](./src/assets/img/img/icons/new-spreads.png)
-![This is an image](./src/assets/img/img/icons/footer-spreads.png)
-![This is an image](./src/assets/img/img/icons/tracker2.png)
-![This is an image](./src/assets/img/img/icons/tracker3.png)
-![This is an image](./src/assets/img/img/icons/tracker5.png)
-![This is an image](./src/assets/img/img/icons/tracker6.png)
-![This is an image](./src/assets/img/img/icons/tracker7.png)
+
+
+### [adopt/a/coder]'s logo
+![This is an image](./src/assets/img/img/icons/logo.png)
+
+###Page views:
+![This is an image](./src/assets/design/home.jpeg)
+![Image text](./src/assets/design/home.jpeg)
+![Image text](./src/assets/design/gallery.jpeg)
+![Image text](./src/assets/design/form-coders.jpeg)
+![Image text](./src/assets/design/form-enterprises.jpeg)
+![Image text](./src/assets/design/contact.jpeg)
+
+### Button colors
+![Image text](src/assets/design/button.jpeg)
+
+
 
 ## Tech/framework used :electric_plug:
 * **HTML** - used to create the website's basic structure
 * **CSS** - used to style the user interface
 * **React**- used for web page development
-* **npm** - used to manage dependencies
+
 
 ## Technology stack :gear:
-* Bootstrap: 5.2.3 [Official website](https://getbootstrap.com/)
-* Mui/material: 5.11.4 [Official website](https://mui.com/)
-* React: 18.2.0 [Official website](https://es.reactjs.org/)
-* Chart.js: 4.1.2 [Official website](https://www.chartjs.org/)
-* Prop-types: 15.8.1 [Official website](https://www.npmjs.com/package/prop-types)
+* **Bootstrap 5.2.3** - used to ease the web development process of responsive, mobile-first [Official website](https://getbootstrap.com/)
+* **npm** - used to manage dependencies
+* **jest** - used for testing
+* **iconify** - used to 
 
 ## Installation :mechanic:
 * Create a directory on your computer to store the project
 * Run ***$ git clone https://github.com/adoptacoder-app/adoptacoder.git*** 
 
-## API Reference 👩‍💻
-Click [here](https://disease.sh) 
-
-## How to use? :key:
+## `npm install` ![React](https://user-images.githubusercontent.com/116796625/216713430-33d87daf-c335-4155-8aa7-bcdc715c49d2.svg)
 * First, in te project directory, run ***$ npm install***
+
+## `npm start`
 * Then, in the project directory, run ***$ npm start***
 * The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -64,19 +56,24 @@ Launches the test runner in the interactive watch mode.
 ### `More information about React`
 You can know more details by checking the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Contributors :family_woman_woman_girl_girl:
+## API Reference 👩‍💻
+Click [here](https://63f6400d59c944921f706c26.mockapi.io/api/user) 
+
+
+
+## Contributors :family_woman_woman_girl_girl: 
 * [Rosemary Rengel](https://github.com/rrengelj)Scrum Master and Developer
 * [Iris Leo](https://github.com/mauisiri) Product Owner and Developer
-* [Said](https://github.com/SaidGM) Developer
-* [](https://github.com/hocsem) Developer
-* [Galit](https://github.com/gbixio) Developer
-* [Tania Pandal](https://github.com/TaniaPandal) Developer
+* [Said García](https://github.com/SaidGM) Developer
+* [Ava Hocsem](https://github.com/hocsem) Developer
+* [Galit Bixio](https://github.com/gbixio) Developer
+* [Tania Díaz](https://github.com/TaniaPandal) Developer
 * [Jéssica Ríos](https://github.com/JessRm04) Developer
 * [Camilo Rocca](https://github.com/camilorocca) Developer
 * [Gabriela Fernández](https://github.com/gabyfdez90) Developer
 
 ## License :closed_lock_with_key:
-© [adopt/a/coder](https://github.com/adoptacoder-app)
+[adopt/a/coder](https://github.com/adoptacoder-app) ©
 
 
 
