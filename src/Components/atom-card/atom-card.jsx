@@ -1,20 +1,25 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 import "./atom-card.css"
 
-function GenericCard({name, bio}) {
+function GenericCard({img, name, bio, id}) {
   return (
-    <Card style={{ width: '18rem' }} className="card">
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className="card">
+      <div className='cardImg'>
+        <img src={img} alt="" />
+      </div>
       <Card.Body className="cardBody">
-        <Card.Title>{name}</Card.Title>
+        <Card.Title><h4>{name}</h4></Card.Title>
         <Card.Text>
-          Developer
+         <h6>Developer</h6> 
         </Card.Text>
         <Card.Text>
-          {bio}
+          Full Stack
         </Card.Text>
-        <Button variant="primary" className="button">¡Adopta!</Button>
+        <Link to={`/detailsProfile/${id}`}>
+          <Button variant="primary" className="button">¡Adóptame!</Button>
+        </Link>
       </Card.Body>
     </Card>
   );

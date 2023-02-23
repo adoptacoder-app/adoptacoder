@@ -1,5 +1,9 @@
+nav{
+  height: 10vh;
+}
+
 .navbarStyles{
-    background-color: var(--main-tr);
+    background-color: var(--medium);
 }
 
 .burgerIcon{
@@ -14,7 +18,6 @@
 }
 
 .logo{
-  margin-top: 0.5rem;
   margin-left: 0.5rem;
   color: var(--light);
   background-color: transparent;
@@ -29,10 +32,7 @@
 .logoCoder{
   color: var(--secondary);
   border: none;
-}.navbarStyles{
-  background-color: var(--main-tr);
 }
-
 
 .navbar-toggler-icon {
   background-color: transparent;
