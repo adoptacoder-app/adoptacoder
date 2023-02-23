@@ -83,3 +83,8 @@ border-radius: 100%;
     display: flex;
     justify-content: center;
 }
+
+.profileIcon{
+    background-color: transparent;
+    color:#000734
+}

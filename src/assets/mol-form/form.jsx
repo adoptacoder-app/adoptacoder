@@ -8,7 +8,7 @@ function AdoptMeForm() {
   return (
     <div className="form">
         <div className="avatarContainer">
-            <div className="avatar"><Icon icon="material-symbols:person" width="60%"/></div>
+            <div className="avatar"><Icon icon="material-symbols:person" width="60%" className="profileIcon"/></div>
         </div>
         <br></br>
     <Form>
