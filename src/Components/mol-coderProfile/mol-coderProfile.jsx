@@ -26,7 +26,8 @@ function CoderProfile() {
         firstName={item.firstName} 
         lastName={item.lastName} 
         area={item.backEnd ? "Backend Developer" : item.frontEnd ? "Frontend developer" : "Full Stack Developer"} 
-        experience={item.junior ? "Junior Developer" : item.senior ? "Senior Developer" : "Mid Developer"} 
+        experience={item.junior ? "Junior Developer" : item.senior ? "Senior Developer" : "Mid Developer"}
+        github={item.github}
       />
     </div>
   );
