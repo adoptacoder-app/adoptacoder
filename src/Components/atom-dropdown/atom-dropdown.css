@@ -1,0 +1,19 @@
+#dropdown-basic{
+    background-color: var(--background-color);
+    border-color: var(--secondary);
+}
+
+.dropdownMenu{
+    background-color: var(--background-color);
+    border-color: var(--secondary);
+}
+
+.item{
+    background-color: var(--background-color);
+    color: var(--light);
+}
+
+.item:hover{
+    background-color: var(--gap);
+    color: var(--light);;
+}
