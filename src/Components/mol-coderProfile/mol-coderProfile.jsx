@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CoderSnippet from '../atom-coderSnippet/atom-coderSnippet';
 import "./mol-coderProfile.css";
 import { useParams } from 'react-router-dom';
+import TechIcons from '../atom-techIcons/atom-techIcons';
 
 function CoderProfile() {
   const { id } = useParams();
@@ -29,6 +30,18 @@ function CoderProfile() {
         experience={item.junior ? "Junior Developer" : item.senior ? "Senior Developer" : "Mid Developer"}
         github={item.github}
       />
+      <TechIcons 
+        html={item.html} 
+        css={item.css} 
+        javascript={item.javaScript} 
+        react={item.react} 
+        angular={item.angular}
+        vue={item.vue} 
+        python={item.python} 
+        php={item.php} 
+        laravel={item.laravel} 
+        sql={item.sql} 
+        />
     </div>
   );
 }
