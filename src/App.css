@@ -27,3 +27,18 @@
     --dark: #000734;
     --medium: #100648;
 }
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2,25rem;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2,25rem;
+}
+
+button{
+    font-family: 'Fira Code', monospace; 
+    border: none;
+}
