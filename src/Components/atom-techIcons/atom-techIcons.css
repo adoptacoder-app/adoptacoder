@@ -1,0 +1,19 @@
+.techIcon-container{
+    display:flex;
+    gap:1rem;
+    flex-wrap: wrap;
+    width:80vw;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.mystack-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mystack-title{
+    margin-top: 1.5rem;
+}
