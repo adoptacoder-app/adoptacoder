@@ -50,6 +50,7 @@ button{
 
 a{
     text-decoration: none !important;
+    background-color: transparent;
 }
 
 h4 {
