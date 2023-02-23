@@ -47,10 +47,13 @@ function TechIcons({html, css, javascript, react, angular, vue, python, php, lar
     }
 
     return (
-    <div className="techIcon-container">
-        {techStack.map((icon) =>(
-            <span key={icon.key} className="techIcon-icon">{icon}</span>
-        ))}
+    <div className="mystack-container">
+        <h2 className="mystack-title"> Mi stack tecnológico</h2>
+        <div className="techIcon-container">
+            {techStack.map((icon) =>(
+                <span key={icon.key} className="techIcon-icon">{icon}</span>
+            ))}
+        </div>
     </div>
   )
 }

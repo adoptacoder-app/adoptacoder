@@ -3,6 +3,7 @@ import CoderSnippet from '../atom-coderSnippet/atom-coderSnippet';
 import "./mol-coderProfile.css";
 import { useParams } from 'react-router-dom';
 import TechIcons from '../atom-techIcons/atom-techIcons';
+import AtomBio from "../atom-bio/AtomBio"
 
 function CoderProfile() {
   const { id } = useParams();
@@ -22,6 +23,7 @@ function CoderProfile() {
 
   return (
     <div className='coderProfile-container'>
+      <h1 className='coderProfile-title'>¡Hola!</h1>
       <CoderSnippet 
         img={item.avatar} 
         firstName={item.firstName} 
@@ -30,6 +32,7 @@ function CoderProfile() {
         experience={item.junior ? "Junior Developer" : item.senior ? "Senior Developer" : "Mid Developer"}
         github={item.github}
       />
+      <AtomBio bio={item.bio} className="coderProfile-bio"/>
       <TechIcons 
         html={item.html} 
         css={item.css} 
