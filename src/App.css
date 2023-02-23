@@ -1,3 +1,9 @@
+@import url(../src/assets/atom-button/atom-button.css);
+@import url(../src/assets/atom-card/atom-card.css);
+@import url(../src/assets/atom-dropdown/atom-dropdown.css);
+@import url(../src/assets/atom-outlinedButton/atom-outlinedButton.css);
+/*@import url(../src/assets/);*/
+
 * {
     background-color: #100648;
 }
@@ -8,6 +14,6 @@
     --main-tr: rgb(80, 17, 173, 0.37);
     --secondary: #9CFF1F;
     --gaps: rgb(71, 84, 170, 0.37);
-    --ligth: #E8F3FC;
+    --light: #E8F3FC;
     --dark: #000734;
 }

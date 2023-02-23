@@ -1,22 +1,22 @@
 .card{
-    border-color:#9CFF1F ;
+    border-color: var(--secondary);
 }
 
 .cardBody{
-    color:white;
+    color: var(--light);
     display: flex;
     flex-direction: column;
 }
 
 .button{
-    background-color: #3c19ff;
-    color: black;
-    border-color: #9CFF1F;
+    background-color: var(--background-color);
+    color: var(--dark);
+    border-color: var(--secondary);
 }
 
 .button:hover{
-    background-color: #486cfa;
-    color: black;
-    border-color: #486cfa;
+    background-color: var(--gap);
+    color: var(--black);
+    border-color: var(--gap);
     justify-content: center;
 }
