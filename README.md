@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# [adopt/a/coder] :boom:
+***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to connect coders with enterprises which want to take care of them, since both are looking for concret and special skills, and there is not time to loose.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Build status: page_facing_up:
+[![Build Status](https://travis-ci.org/user/repo.svg?branch=master)](https://github.com/JessRm04/laresistenciacoviders)
 
-### `npm start`
+## :iphone: Mobile Graphic reference
+​
+![Image text](./assets/img/img_redme/Captura%205.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### This is the adopt/a/coder's logo
+![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
+### These are the page views:
+![This is an image](./src/assets/img/img/icons/landing-navbar.png)
+![This is an image](./src/assets/img/img/icons/landing-symptom.png)
+![This is an image](./src/assets/img/img/icons/landing-prevent.png)
+![This is an image](./src/assets/img/img/icons/landing-spreads.png)
+![This is an image](./src/assets/img/img/icons/faqs-spreads.png)
+![This is an image](./src/assets/img/img/icons/wash-spreads.png)
+![This is an image](./src/assets/img/img/icons/mobile-spreads.png)
+![This is an image](./src/assets/img/img/icons/new-spreads.png)
+![This is an image](./src/assets/img/img/icons/footer-spreads.png)
+![This is an image](./src/assets/img/img/icons/tracker2.png)
+![This is an image](./src/assets/img/img/icons/tracker3.png)
+![This is an image](./src/assets/img/img/icons/tracker5.png)
+![This is an image](./src/assets/img/img/icons/tracker6.png)
+![This is an image](./src/assets/img/img/icons/tracker7.png)
 
-The page will reload when you make changes.\
+## Tech/framework used :electric_plug:
+* **HTML** - used to create the website's basic structure
+* **CSS** - used to style the user interface
+* **React**- used for web page development
+* **npm** - used to manage dependencies
+
+## Technology stack :gear:
+* Bootstrap: 5.2.3 [Official website](https://getbootstrap.com/)
+* Mui/material: 5.11.4 [Official website](https://mui.com/)
+* React: 18.2.0 [Official website](https://es.reactjs.org/)
+* Chart.js: 4.1.2 [Official website](https://www.chartjs.org/)
+* Prop-types: 15.8.1 [Official website](https://www.npmjs.com/package/prop-types)
+
+## Installation :mechanic:
+* Create a directory on your computer to store the project
+* Run ***$ git clone https://github.com/adoptacoder-app/adoptacoder.git*** 
+
+## API Reference 👩‍💻
+Click [here](https://disease.sh) 
+
+## How to use? :key:
+* First, in te project directory, run ***$ npm install***
+* Then, in the project directory, run ***$ npm start***
+* The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
+It runs the app in the development mode.
+* Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Launches the test runner in the interactive watch mode.
+* See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `More information about React`
+You can know more details by checking the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### `npm run build`
+## Contributors :family_woman_woman_girl_girl:
+* [Rosemary Rengel](https://github.com/rrengelj)Scrum Master and Developer
+* [Iris Leo](https://github.com/mauisiri) Product Owner and Developer
+* [Said](https://github.com/SaidGM) Developer
+* [](https://github.com/hocsem) Developer
+* [Galit](https://github.com/gbixio) Developer
+* [Tania Pandal](https://github.com/TaniaPandal) Developer
+* [Jéssica Ríos](https://github.com/JessRm04) Developer
+* [Camilo Rocca](https://github.com/camilorocca) Developer
+* [Gabriela Fernández](https://github.com/gabyfdez90) Developer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License :closed_lock_with_key:
+© [adopt/a/coder](https://github.com/adoptacoder-app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
