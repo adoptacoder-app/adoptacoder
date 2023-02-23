@@ -1,0 +1,5 @@
+.button{
+    background-color: var(--secondary);
+    color: var(--dark);
+    border-color: var(--secondary);
+}

@@ -1,18 +1,24 @@
-// import { Route, Routes } from "react-router";
-import "./App.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import GenericCard from "./assets/atom-card/atom-card";
 import { Route, Routes } from "react-router";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home/Home";
-
+import CoderProfile from "./Pages/ProfileCoder/mol-coderProfile";
+import FormEmpresa from "./Pages/FormEmpresa/FormEmpresa";
+import FormUser from './Pages/FormUser/FormUser'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-    </Routes>
-    // <GenericCard name="Carlos" bio="Some quick example text to build on the card title and make up the
-    // bulk of the card's content."/>
+    <>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/detailsProfile/:id" element={<CoderProfile/>} />
+        <Route path="/formUser" element={<FormUser/>}/>
+        <Route path="/formEmpresa" element={<FormEmpresa/>}/>
+        <Route path="" element={''}/>
+        <Route path="" element={''}/>
+        <Route path="*" element={<h1>Error 404</h1>}/>
+      </Routes>
+    </>
   );
 }
 

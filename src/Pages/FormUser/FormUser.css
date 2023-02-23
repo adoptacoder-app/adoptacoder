@@ -1,0 +1,91 @@
+.form{
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #E8F3FC;
+    font-family: 'Fira Code';
+    font-size: 16px;
+}
+
+.boton{
+    width: 100%;
+}
+
+.placeholderStyle{
+    background-color: #2e046d35;
+    border-color:#9CFF1F;
+}
+
+.placeholderStyle:hover{
+    background-color: #2e046d35;
+}
+
+.placeholderStyle::placeholder{
+    background-color: #2e046d35;
+}
+
+.placeholderStyle:not(:placeholder-shown) {
+    color: #2e046d35;
+  }
+
+
+.submitButtonContainer{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.submitButton{
+    background-color:#9CFF1F;
+    color: black;
+    border-color: #9CFF1F;   
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.submitButton:hover{
+    background-color:#D7FBAA;
+    color: black;
+    border-color: #D7FBAA;   
+}
+
+#formChecks{
+    border: 1.5px solid #9CFF1F;
+    border-radius: 8px;
+    padding: 2px;
+    padding-left: 3px;
+}
+
+.formChecksBg{
+    background-color: transparent;
+    padding-top: 2px;
+}
+
+.avatar{
+background-color: #9CFF1F;
+width: 122px;
+height: 122px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 2px;
+width: 122px;
+height: 122px;
+border-radius: 100%;
+
+}
+
+.avatarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profileIcon{
+    background-color: transparent;
+    color:#000734
+}

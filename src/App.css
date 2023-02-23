@@ -1,9 +1,62 @@
+@import url(../src/Components/atom-button/atom-button.css);
+@import url(../src/Components/atom-card/atom-card.css);
+@import url(../src/Components/atom-dropdown/atom-dropdown.css);
+@import url(../src/Components/atom-outlinedButton/atom-outlinedButton.css);
+@import url(../src/Components/atom-navbar/atomNavbar.css);
+/*@import url(../src/assets/);*/
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
-    background-color: #100648;
+    background-color: var(--dark);
     color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --header: rgb(46, 4, 109, 0.35);
+    --main: #5011AD;
+    --main-tr: rgb(80, 17, 173, 0.37);
+    --secondary: #9CFF1F;
+    --secondaryLight: #D7FBAA;
+    --gaps: rgb(71, 84, 170, 0.37);
+    --light: #E8F3FC;
+    --dark: #000734;
+    --medium: #100648;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2,25rem;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2,25rem;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-family: 'Fira Code', monospace; 
+    border: none;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+h4 {
+    font-family: 'Fira Code', monospace;
+}
+
+p {
+    font-family: 'Fira Code', monospace;
 }
