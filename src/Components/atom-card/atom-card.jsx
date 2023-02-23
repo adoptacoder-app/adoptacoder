@@ -1,8 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 import "./atom-card.css"
 
-function GenericCard({img, name, bio}) {
+function GenericCard({img, name, bio, id}) {
   return (
     <Card style={{ width: '18rem' }} className="card">
       <Card.Img variant="top" src={img} />
@@ -14,7 +15,7 @@ function GenericCard({img, name, bio}) {
         <Card.Text>
           {bio}
         </Card.Text>
-        <Button variant="primary" className="button">¡Adopta!</Button>
+        <Link to={`/detailsProfile/${id}`}><Button variant="primary" className="button">¡Adopta!</Button></Link>
       </Card.Body>
     </Card>
   );
