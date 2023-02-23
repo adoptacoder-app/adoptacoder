@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CoderSnippet from '../atom-coderSnippet/atom-coderSnippet';
+import CoderSnippet from '../../Components/atom-coderSnippet/atom-coderSnippet';
 import "./mol-coderProfile.css";
 import { useParams } from 'react-router-dom';
 

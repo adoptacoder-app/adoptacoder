@@ -10,10 +10,8 @@ function Hero() {
           <div className='caption'>
               <button className='buttonAdopta'> ¡Adopta! {'>>'} </button>
               <div>
-                  <Link>
-                    <h6 className='captionSpam1'>¡Eres coder?</h6>
-                  </Link>
-                  <Link>
+                  <h6 className='captionSpam1'>¡Eres coder?</h6>
+                  <Link to='/formUser'>
                     <h6 className='captionSpam1'>¡Hazte adoptar! {'>>'} </h6>
                   </Link>
               </div>
