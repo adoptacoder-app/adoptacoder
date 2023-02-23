@@ -13,10 +13,15 @@ function Home() {
              <h1>Encuentra <br/> <span>coders</span> <br/>para tu proyecto</h1>
             </div>
             <div className='caption'>
-              <button className='button'> ¡Adopta! {'>>'} </button>
-              <h4>¡Eres coder?</h4>
-              <h4>¡Hazte adoptar! {'>>'} </h4>
+              <button className='buttonAdopta'> ¡Adopta! {'>>'} </button>
+              <div>
+                <h6>¡Eres coder?</h6>
+                <h6>¡Hazte adoptar! {'>>'} </h6>
+              </div> 
             </div>
+        </section>
+        <section>
+          
         </section>
     </main>
     </>
