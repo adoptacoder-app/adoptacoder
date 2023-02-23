@@ -1,7 +1,7 @@
-@import url(../src/assets/atom-button/atom-button.css);
-@import url(../src/assets/atom-card/atom-card.css);
-@import url(../src/assets/atom-dropdown/atom-dropdown.css);
-@import url(../src/assets/atom-outlinedButton/atom-outlinedButton.css);
+@import url(../src/Components/atom-button/atom-button.css);
+@import url(../src/Components/atom-card/atom-card.css);
+@import url(../src/Components/atom-dropdown/atom-dropdown.css);
+@import url(../src/Components/atom-outlinedButton/atom-outlinedButton.css);
 /*@import url(../src/assets/);*/
 
 * {
@@ -13,6 +13,7 @@
     --main: #5011AD;
     --main-tr: rgb(80, 17, 173, 0.37);
     --secondary: #9CFF1F;
+    --secondaryLight: #D7FBAA;
     --gaps: rgb(71, 84, 170, 0.37);
     --light: #E8F3FC;
     --dark: #000734;

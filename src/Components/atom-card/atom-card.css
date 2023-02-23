@@ -16,7 +16,7 @@
 
 .button:hover{
     background-color: var(--gap);
-    color: var(--black);
+    color: var(--dark);
     border-color: var(--gap);
     justify-content: center;
 }
