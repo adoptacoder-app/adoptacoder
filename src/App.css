@@ -2,6 +2,7 @@
 @import url(../src/Components/atom-card/atom-card.css);
 @import url(../src/Components/atom-dropdown/atom-dropdown.css);
 @import url(../src/Components/atom-outlinedButton/atom-outlinedButton.css);
+@import url(../src/Components/atom-navbar/atomNavbar.css);
 /*@import url(../src/assets/);*/
 
 * {
