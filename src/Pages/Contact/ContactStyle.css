@@ -10,8 +10,6 @@ h1{
 main{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 1em;
     margin: 0 auto;
     padding: 0;
@@ -39,6 +37,7 @@ main{
   }
 
 .submitButton{
+    align-self: center;  
     background-color:#9CFF1F;
     color: black;
     border-color: #9CFF1F;   

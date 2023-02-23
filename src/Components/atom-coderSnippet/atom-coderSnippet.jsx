@@ -12,7 +12,7 @@ function CoderSnippet({img, firstName, lastName, area, experience, github}) {
         <div className='coderSnippet-info'>
             <h3 className="coderSnippet-name">{firstName + " " + lastName}</h3>
             <h4 className="coderSnippet-area">{area}</h4>
-            <h4>{experience}</h4>
+            <h4 className='coderSnippets-experience'>{experience}</h4>
             <a href={github}>
                 <Button variant="light" className="rounded-pill">
                     <Icon icon="mdi:github" color="white" width="30" />
