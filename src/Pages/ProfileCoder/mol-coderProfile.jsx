@@ -10,12 +10,17 @@ function CoderProfile() {
   const [item, setItem] = useState([]);
 
   useEffect(() => {
-    fetch(`https://63f6400d59c944921f706c26.mockapi.io/api/user/${id}`)
-      .then(response => response.json())
-      .then(data => setItem(data))
-      .catch(error => console.error(error));
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`https://63f6400d59c944921f706c26.mockapi.io/api/user/${id}`);
+        const data = await response.json();
+        setItem(data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    fetchData();
   }, [id]);
-
 
   if (!item) {
     return <div>Loading...</div>;
