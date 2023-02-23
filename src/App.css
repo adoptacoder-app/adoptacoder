@@ -1,3 +1,11 @@
+/* @import url(../src/components/atom-button/atom-button.css);
+@import url(../src/components/atom-card/atom-card.css);
+@import url(../src/components/atom-dropdown/atom-dropdown.css); */
+/* @import url(../src/components/atom-outlinedButton/atom-outlinedButton.css); */
+
+
+/*@import url(../src/assets/);*/
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
 * {
@@ -10,4 +18,15 @@
 
 h1{
     font-family: 'Fira Code', monospace;
+    font-size: 1.5 rem;
+}
+
+:root{
+    --header: rgb(46, 4, 109, 0.35);
+    --main: #5011AD;
+    --main-tr: rgb(80, 17, 173, 0.37);
+    --secondary: #9CFF1F;
+    --gaps: rgb(71, 84, 170, 0.37);
+    --light: #E8F3FC;
+    --dark: #000734;
 }

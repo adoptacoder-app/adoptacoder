@@ -1,0 +1,4 @@
+.button{
+    border-color: var(--secondary);
+    color: var(--light);
+}
