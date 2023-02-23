@@ -23,7 +23,7 @@ This project was created to connect coders with enterprises which want to take c
 
 
 
-## Tech/framework used :electric_plug:
+## Tech/framework used :electric_plug
 * **HTML** - used to create the website's basic structure
 * **CSS** - used to style the user interface
 * **React**- used for web page development
