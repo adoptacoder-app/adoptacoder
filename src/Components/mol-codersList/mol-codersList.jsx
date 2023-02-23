@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import GenericCard from '../atom-card/atom-card';
-import { Link } from 'react-router-dom';
 import "./mol-codersList.css";
 
 function CodersList() {
