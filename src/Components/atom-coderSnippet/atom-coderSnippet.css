@@ -2,6 +2,7 @@
     color:white;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     padding: 3rem;
     gap: 3rem;
 }
@@ -19,4 +20,7 @@
 
 .coderSnippet-photo{
     border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    align-self: center;
 }
