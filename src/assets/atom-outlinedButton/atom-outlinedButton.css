@@ -1,4 +1,4 @@
 .button{
-    border-color: #9CFF1F;
-    color: white;
+    border-color: var(--secondary);
+    color: var(--light);
 }

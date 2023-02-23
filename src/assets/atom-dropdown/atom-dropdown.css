@@ -1,20 +1,19 @@
 #dropdown-basic{
-    background-color:#100648;
-    border-color: #9CFF1F;
+    background-color: var(--background-color);
+    border-color: var(--secondary);
 }
 
 .dropdownMenu{
-    background-color:#100648;
-    border-color: #9CFF1F;
+    background-color: var(--background-color);
+    border-color: var(--secondary);
 }
 
-
 .item{
-    background-color:#100648;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--light);
 }
 
 .item:hover{
-    background-color:#210e8b;
-    color: white;
+    background-color: var(--gap);
+    color: var(--light);;
 }
