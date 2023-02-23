@@ -1,7 +1,7 @@
-@import url(../src/assets/atom-button/atom-button.css);
-@import url(../src/assets/atom-card/atom-card.css);
-@import url(../src/assets/atom-dropdown/atom-dropdown.css);
-@import url(../src/assets/atom-outlinedButton/atom-outlinedButton.css);
+@import url(../src/Components/atom-button/atom-button.css);
+@import url(../src/Components/atom-card/atom-card.css);
+@import url(../src/Components/atom-dropdown/atom-dropdown.css);
+@import url(../src/Components/atom-outlinedButton/atom-outlinedButton.css);
 /*@import url(../src/assets/);*/
 
 * {
