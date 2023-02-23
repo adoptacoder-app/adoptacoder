@@ -16,7 +16,7 @@ function CodersList() {
   return (
     <div className="coderList-container">
         {data.slice(0, 10).map(item => (
-        <GenericCard img={item.avatar} name={item.firstName} bio={item.bio}/>
+        <GenericCard key={item} img={item.avatar} name={item.firstName} bio={item.bio}/>
       ))}
     </div>
   )
