@@ -1,7 +1,7 @@
 import './form.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import GenericDropdown from '../atom-dropdown/atom-dropdown';
+import GenericDropdown from "../../Components/atom-dropdown/atom-dropdown"
 
 function AdoptMeForm() {
   return (
@@ -15,7 +15,7 @@ function AdoptMeForm() {
           <Form.Control
             required
             type="text"
-            placeholder="¿Lucía? ¿Marcos?"
+            placeholder="Nombre"
             className="placeholderStyle"
           />
            <br></br>
@@ -23,7 +23,7 @@ function AdoptMeForm() {
           <Form.Control
             required
             type="text"
-            placeholder="¿Pérez?"
+            placeholder="Apellidos"
             className="placeholderStyle"
           />
            <br></br>
@@ -48,8 +48,9 @@ function AdoptMeForm() {
       <GenericDropdown title="¿Qué tipo de coder eres?" option1="Frontend" option2="Backend" option3="Fullstack"/><br></br>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Háblanos de ti</Form.Label>
-        <Form.Control as="textarea" rows={3} />
+        <Form.Label>¡Preséntate!</Form.Label>
+        <Form.Control as="textarea" rows={3} className="placeholderStyle"
+          placeholder="¡Conquista a las empresas!"/>
       </Form.Group>
       <br></br>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
@@ -63,6 +64,21 @@ function AdoptMeForm() {
       </Button>
       </div>
       <br></br>
+
+ 
+        <p>Tu stack</p>
+        <Form.Group className="mb-3" controlId="formBasicCheckbox" id="formChecks">
+        <Form.Check type="checkbox" label="Utilizo metodologías ágiles" className="formChecksBg"/>
+        <Form.Check type="checkbox" label="Controlo de testing (TDD...)" />
+      </Form.Group>
+  
+
+
+
+
+
+
+
     </Form>
     </div>
   );
