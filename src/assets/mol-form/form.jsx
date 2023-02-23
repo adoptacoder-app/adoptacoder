@@ -2,10 +2,15 @@ import './form.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import GenericDropdown from "../../Components/atom-dropdown/atom-dropdown"
+import { Icon } from '@iconify/react';
 
 function AdoptMeForm() {
   return (
     <div className="form">
+        <div className="avatarContainer">
+            <div className="avatar"><Icon icon="material-symbols:person" width="60%"/></div>
+        </div>
+        <br></br>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Selecciona tu foto de perfil</Form.Label>
@@ -52,34 +57,31 @@ function AdoptMeForm() {
         <Form.Control as="textarea" rows={3} className="placeholderStyle"
           placeholder="¡Conquista a las empresas!"/>
       </Form.Group>
-      <br></br>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Utilizo metodologías ágiles" /><br></br>
-        <Form.Check type="checkbox" label="Controlo de testing (TDD...)" />
-      </Form.Group>
-      <br></br>
+      <h5>Tu stack</h5>
+    <Form.Group className="mb-3" controlId="formBasicCheckbox" id="formChecks">
+        <Form.Check type="checkbox" label="HTML" className="formChecksBg"/>
+        <Form.Check type="checkbox" label="CSS"className="formChecksBg"/>
+        <Form.Check type="checkbox" label="JavaScript" className="formChecksBg"/>
+        <Form.Check type="checkbox" label="Php"className="formChecksBg"/>
+        <Form.Check type="checkbox" label="Laravel" className="formChecksBg"/>
+        <Form.Check type="checkbox" label="Vue"className="formChecksBg"/>
+        <Form.Check type="checkbox" label="Angular" className="formChecksBg"/>
+        <Form.Check type="checkbox" label="SQL"className="formChecksBg"/>
+    </Form.Group>
+    <br></br>
+    <h5>Otras características</h5>
+    <Form.Group className="mb-3" controlId="formBasicCheckbox" id="formChecks">
+        <Form.Check type="checkbox" label="Metodologías Ágiles" className="formChecksBg"/>
+        <Form.Check type="checkbox" label="Testing"className="formChecksBg"/>
+    </Form.Group>
+    <br></br>
       <div className="submitButtonContainer">
       <Button variant="primary" type="submit" className="submitButton">
         ¡Adóptame!
       </Button>
       </div>
-      <br></br>
-
- 
-        <p>Tu stack</p>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox" id="formChecks">
-        <Form.Check type="checkbox" label="Utilizo metodologías ágiles" className="formChecksBg"/>
-        <Form.Check type="checkbox" label="Controlo de testing (TDD...)" />
-      </Form.Group>
-  
-
-
-
-
-
-
-
     </Form>
+    <br></br>
     </div>
   );
 }

@@ -53,11 +53,33 @@
 #formChecks{
     border: 1.5px solid #9CFF1F;
     border-radius: 8px;
-    padding: 1px;
+    padding: 2px;
+    padding-left: 3px;
 }
 
 .formChecksBg{
     background-color: transparent;
     padding-top: 2px;
-    padding-left:
+}
+
+.avatar{
+background-color: #9CFF1F;
+width: 122px;
+height: 122px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 2px;
+width: 122px;
+height: 122px;
+border-radius: 100%;
+
+}
+
+.avatarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
