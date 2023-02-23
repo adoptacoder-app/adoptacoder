@@ -3,7 +3,7 @@ import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home/Home'
 import Contact from './Pages/Contact/Contact'
-import CoderProfile from "./Components/mol-coderProfile/mol-coderProfile";
+import CoderProfile from "./Pages/ProfileCoder/mol-coderProfile";
 
 
 function App() {
