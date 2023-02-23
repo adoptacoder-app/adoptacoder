@@ -1,4 +1,5 @@
 import React from 'react'
+import CodersList from '../../../Components/mol-codersList/mol-codersList'
 
 function Cards() {
   return (
@@ -6,9 +7,7 @@ function Cards() {
           <div>
               <h3>Coder Destacados</h3>
           </div>
-          <article>
-
-          </article>
+          <CodersList/>
       </section>
   )
 }
