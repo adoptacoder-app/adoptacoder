@@ -3,9 +3,12 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import GenericDropdown from "../../Components/atom-dropdown/atom-dropdown"
 import { Icon } from '@iconify/react';
+import AtomNavbar from '../../Components/atom-navbar/AtomNavbar';
 
 function AdoptMeForm() {
   return (
+    <>
+    <AtomNavbar/>
     <div className="form">
         <div className="avatarContainer">
             <div className="avatar"><Icon icon="material-symbols:person" width="60%" className="profileIcon"/></div>
@@ -83,6 +86,7 @@ function AdoptMeForm() {
     </Form>
     <br></br>
     </div>
+    </>
   );
 }
 

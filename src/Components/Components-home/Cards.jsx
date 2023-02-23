@@ -1,5 +1,5 @@
 import React from 'react'
-import CodersList from '../../../Components/mol-codersList/mol-codersList'
+import CodersList from '../mol-codersList/mol-codersList'
 
 function Cards() {
   return (
