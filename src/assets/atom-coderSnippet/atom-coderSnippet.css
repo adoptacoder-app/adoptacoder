@@ -1,0 +1,22 @@
+.coderSnippet-container{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.coderSnippet-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.coderSnippet-name{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.coderSnippet-photo{
+    border-radius: 50%;
+}
