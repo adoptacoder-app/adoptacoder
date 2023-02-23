@@ -1,4 +1,5 @@
 
+
 h1{
     margin: 1em;
     font-weight: 600;
@@ -15,8 +16,7 @@ main{
     margin: 0 auto;
     padding: 0;
     background-color: var(--dark);
-    width: 60%;
-    height: 70vh;
+
 }
 
 .placeholderStyle{
@@ -46,6 +46,7 @@ main{
     font-weight: bold;
     width: 13em;
     margin-top: 1em;
+    margin-bottom: 3em;
  }
 
 .submitButton:hover{
@@ -53,3 +54,8 @@ main{
     color: black;
     border-color: #D7FBAA;   
 }
+
+.coder.card {
+    transform: scale(0.75);
+  }
+  

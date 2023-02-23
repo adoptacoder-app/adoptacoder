@@ -1,13 +1,30 @@
-import React from 'react'
 import AtomNavbar from '../../Components/atom-navbar/AtomNavbar'
-import Card from '../../Components/atom-card/atom-card'
-import Form from 'react-bootstrap/Form';
+import CoderSnippet from '../../Components/atom-coderSnippet/atom-coderSnippet';
+import { useParams } from 'react-router-dom';import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './ContactStyle.css'
+import React, { useState, useEffect } from 'react';
+
 
 
 function Contact() {
+  const { id } = useParams();
+  const [item, setItem] = useState([]);
+
+  useEffect(() => {
+    fetch(`https://63f6400d59c944921f706c26.mockapi.io/api/user/${id}`)
+      .then(response => response.json())
+      .then(data => setItem(data))
+      .catch(error => console.error(error));
+  }, [id]);
+
+
+  if (!item) {
+    return <div>Loading...</div>;
+  }
+
   return (
+    
     <>
     <header>
      <AtomNavbar/>
@@ -15,12 +32,22 @@ function Contact() {
     </header>
     <main>
 
-    <Card/>
+    <CoderSnippet className="coder-card"
+        img={item.avatar} 
+        firstName={item.firstName} 
+        lastName={item.lastName} 
+        area={item.backEnd ? "Backend Developer" : item.frontEnd ? "Frontend developer" : "Full Stack Developer"} 
+        experience={item.junior ? "Junior Developer" : item.senior ? "Senior Developer" : "Mid Developer"}
+        github={item.github}
+      />
+
+   
     <Form>  
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Control as="textarea" rows={3} className="placeholderStyle"
           placeholder="Escribe aquí tu mensaje"/>
-      </Form.Group></Form>
+      </Form.Group>
+    </Form>
   
 
     <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>

@@ -1,7 +1,7 @@
 import React from 'react'
 import AtomNavbar from '../../Components/atom-navbar/AtomNavbar'
-import Cards from './Components/Cards'
-import Hero from './Components/Hero'
+import Hero from './Components-home/Hero'
+import Cards from './Components-home/Cards'
 import './HomeStyle.css'
 
 function Home() {
