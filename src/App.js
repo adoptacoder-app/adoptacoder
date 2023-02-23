@@ -13,6 +13,8 @@ function App() {
         <Route path="/detailsProfile/:id" element={<CoderProfile />} />
         <Route path="/formUser" element={<FormUser/>}/>
         <Route path="" element={''}/>
+        <Route path="" element={''}/>
+        <Route path="" element={''}/>
         <Route path="*" element={<h1>Error 404</h1>}/>
       </Routes>
     </>
