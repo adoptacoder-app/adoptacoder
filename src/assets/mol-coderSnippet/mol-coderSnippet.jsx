@@ -1,24 +1,17 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import "./mol-coderSnippet.css";
 
-function CoderSnippet() {
-    const [data, setData] = useState([]);
 
-    useEffect(() => {
-        fetch('https://63f6400d59c944921f706c26.mockapi.io/api/user')
-          .then(response => response.json())
-          .then(data => setData(data))
-          .catch(error => console.error(error));
-      }, []);
-
+function CoderSnippet({img, firstName, lastName, area, experience}) {
 
     return (
     <div className='coderSnippet-container'>
-        <img src={data.avatar} className="coderSnippet-photo" alt="coder img"></img>
-        <h1>{data.firstName + data.lastName}</h1>
-        <h2>Backend Dev</h2>
-        <h3>Junior Developer</h3>
+        <img src={img} className="coderSnippet-photo" alt="coder img"></img>
+        <div className='coderSnippet-info'>
+            <h1 className="coderSnippet-name">{firstName + lastName}</h1>
+            <h2>{area}</h2>
+            <h3>{experience}</h3>
+        </div>
     </div>
   )
 }

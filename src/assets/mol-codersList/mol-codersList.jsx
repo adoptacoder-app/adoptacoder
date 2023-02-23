@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import GenericCard from '../atom-card/atom-card';
+import { Link } from 'react-router-dom';
 import "./mol-codersList.css";
 
 function CodersList() {
@@ -16,7 +17,9 @@ function CodersList() {
   return (
     <div className="coderList-container">
         {data.slice(0, 10).map(item => (
-        <GenericCard key={item} img={item.avatar} name={item.firstName} bio={item.bio}/>
+        <GenericCard key={item.id} img={item.avatar} name={item.firstName} bio={item.bio}><Link to={`/details/${item.id}`}>
+        {item.name}
+      </Link> </GenericCard>
       ))}
     </div>
   )
