@@ -1,6 +1,40 @@
 .form{
     width: 60%;
-    display: flex;
     margin-left: 20%;
-    color: white
+    color: white;
+}
+
+.boton{
+    width: 100%;
+}
+
+.placeholderStyle{
+    background-color: #2e046d35;
+    border-color:#9CFF1F;
+}
+
+.placeholderStyle:hover{
+    background-color: #2e046d35;
+}
+
+.placeholderStyle::placeholder{
+    background-color: #2e046d35;
+}
+
+.placeholderStyle:not(:placeholder-shown) {
+    color: #2e046d35;
+  }
+
+
+.submitButtonContainer{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.submitButton{
+    background-color:#9CFF1F;
+    color: black;
+    border-color: #9CFF1F;   
 }
