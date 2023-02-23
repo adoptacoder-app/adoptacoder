@@ -8,7 +8,9 @@ function Hero() {
               <h1>Encuentra <br /> <span>coders</span> <br />para tu proyecto</h1>
           </div>
           <div className='caption'>
-              <button className='buttonAdopta'> ¡Adopta! {'>>'} </button>
+            <Link to='/formEmpresa'>
+                <button className='buttonAdopta'> ¡Adopta! {'>>'} </button>
+            </Link>
               <div>
                   <h6 className='captionSpam1'>¡Eres coder?</h6>
                   <Link to='/formUser'>
