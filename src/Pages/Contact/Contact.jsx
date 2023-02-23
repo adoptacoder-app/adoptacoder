@@ -23,7 +23,7 @@ function Contact() {
       </Form.Group></Form>
   
 
-    <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje >> </Button>
+    <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
     </main>
     </>
     
