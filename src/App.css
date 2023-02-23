@@ -1,9 +1,8 @@
-/* @import url(../src/components/atom-button/atom-button.css);
-@import url(../src/components/atom-card/atom-card.css);
-@import url(../src/components/atom-dropdown/atom-dropdown.css); */
-/* @import url(../src/components/atom-outlinedButton/atom-outlinedButton.css); */
-
-
+@import url(../src/Components/atom-button/atom-button.css);
+@import url(../src/Components/atom-card/atom-card.css);
+@import url(../src/Components/atom-dropdown/atom-dropdown.css);
+@import url(../src/Components/atom-outlinedButton/atom-outlinedButton.css);
+@import url(../src/Components/atom-navbar/atomNavbar.css);
 /*@import url(../src/assets/);*/
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
@@ -22,6 +21,7 @@
     --main: #5011AD;
     --main-tr: rgb(80, 17, 173, 0.37);
     --secondary: #9CFF1F;
+    --secondaryLight: #D7FBAA;
     --gaps: rgb(71, 84, 170, 0.37);
     --light: #E8F3FC;
     --dark: #000734;
