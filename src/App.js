@@ -1,5 +1,6 @@
 // import { Route, Routes } from "react-router";
 import "./App.css"
+import AtomNavbar from "./assets/navbar/AtomNavbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import GenericCard from "./assets/atom-card/atom-card";
 import { Route, Routes } from "react-router";
@@ -15,5 +16,7 @@ function App() {
     // bulk of the card's content."/>
   );
 }
+
+
 
 export default App;
