@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -9,8 +10,10 @@ function Hero() {
           <div className='caption'>
               <button className='buttonAdopta'> ¡Adopta! {'>>'} </button>
               <div>
-                  <h6>¡Eres coder?</h6>
-                  <h6>¡Hazte adoptar! {'>>'} </h6>
+                  <h6 className='captionSpam1'>¡Eres coder?</h6>
+                  <Link to='/formUser'>
+                    <h6 className='captionSpam1'>¡Hazte adoptar! {'>>'} </h6>
+                  </Link>
               </div>
           </div>
       </section>

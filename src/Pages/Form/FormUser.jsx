@@ -1,4 +1,4 @@
-import './form.css'
+import './FormUser.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import GenericDropdown from "../../Components/atom-dropdown/atom-dropdown"
