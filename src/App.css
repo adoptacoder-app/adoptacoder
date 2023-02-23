@@ -1,3 +1,13 @@
 * {
     background-color: #100648;
 }
+
+:root{
+    --header: rgb(46, 4, 109, 0.35);
+    --main: #5011AD;
+    --main-tr: rgb(80, 17, 173, 0.37);
+    --secondary: #9CFF1F;
+    --gaps: rgb(71, 84, 170, 0.37);
+    --ligth: #E8F3FC;
+    --dark: #000734;
+}
