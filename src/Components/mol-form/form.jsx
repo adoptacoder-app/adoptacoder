@@ -1,7 +1,7 @@
 import './form.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import GenericDropdown from "../../Components/atom-dropdown/atom-dropdown"
+import GenericDropdown from "../atom-dropdown/atom-dropdown"
 import { Icon } from '@iconify/react';
 
 function AdoptMeForm() {
