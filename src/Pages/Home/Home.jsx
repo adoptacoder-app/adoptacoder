@@ -11,7 +11,6 @@ function Home() {
     <AtomNavbar/>
     <main>
         <Hero/>
-        <SelecCoder/>
         <Cards/>
     </main>
     </>
