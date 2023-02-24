@@ -17,6 +17,7 @@ main{
 }
 .title span{
     color: var(--secondary);
+    background-color: transparent;
 }
 
 .caption{
@@ -76,4 +77,46 @@ main{
 
 .captionSpam1{
     margin: 15px 0;
+}
+
+.hidden{
+    height: 50px;
+}
+
+@media (min-width: 429px){
+    .hero{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .title h1{
+        font-size: 2.7em;
+    }
+
+    .title{
+        height: 130px;
+    }
+
+    .buttonAdopta{
+        width: 250px;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+    
+    .captionDiv h6{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 900px){
+    .cards{
+
+    }
 }

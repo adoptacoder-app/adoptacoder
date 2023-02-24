@@ -11,11 +11,13 @@ function Hero() {
             <Link to='/formEmpresa'>
                 <button className='buttonAdopta'> ¡Adopta! {'>>'} </button>
             </Link>
-              <div>
+              <div className='captionDiv'>
+                <Link to='/formUser'>
                   <h6 className='captionSpam1'>¡Eres coder?</h6>
-                  <Link to='/formUser'>
-                    <h6 className='captionSpam1'>¡Hazte adoptar! {'>>'} </h6>
-                  </Link>
+                </Link>
+                <Link to='/formUser'>
+                  <h6 className='captionSpam1'>¡Hazte adoptar! {'>>'} </h6>
+                </Link>
               </div>
           </div>
       </section>

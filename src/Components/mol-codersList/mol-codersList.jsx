@@ -16,7 +16,7 @@ function CodersList() {
 
   return (
     <article className="coderList-container" >
-        {data.slice(0,5).map(item => (
+        {data.slice(0,10).map(item => (
         <GenericCard 
             key={item.id} 
             img={item.avatar}

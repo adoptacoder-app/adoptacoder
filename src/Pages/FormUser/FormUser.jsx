@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import GenericDropdown from "../../Components/atom-dropdown/atom-dropdown"
 import { Icon } from '@iconify/react';
 import AtomNavbar from '../../Components/atom-navbar/AtomNavbar';
+import { Link } from 'react-router-dom';
 
 function AdoptMeForm() {
   return (
@@ -36,7 +37,7 @@ function AdoptMeForm() {
           />
            <br></br>
         <Form.Label>Email</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" className="placeholderStyle"/>
+        <Form.Control type="email" placeholder="Enter email" className="placeholderStyle inputs"/>
         <br></br>
         <Form.Text className="text-muted">
         </Form.Text>
@@ -79,9 +80,11 @@ function AdoptMeForm() {
     </Form.Group>
     <br></br>
       <div className="submitButtonContainer">
-      <Button variant="primary" type="submit" className="submitButton">
-        ¡Adóptame!
-      </Button>
+        <Link to='/'>
+          <Button variant="primary" type="submit" className="submitButton">
+            ¡Adóptame!
+          </Button>
+        </Link>
       </div>
     </Form>
     <br></br>

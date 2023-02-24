@@ -31,8 +31,8 @@ function Contact() {
     <div className='titleContact'>
       <h1>¿Quieres Hablar conmigo? </h1>
     </div>
-    
-    <CoderSnippet className="coder-card"
+    <div className='CenterSnippet'>
+      <CoderSnippet className="coder-card"
         img={item.avatar} 
         firstName={item.firstName} 
         lastName={item.lastName} 
@@ -40,18 +40,20 @@ function Contact() {
         experience={item.junior ? "Junior Developer" : item.senior ? "Senior Developer" : "Mid Developer"}
         github={item.github}
       />
-
-   
-    <Form>  
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Control as="textarea" rows={3} className="placeholderStyle"
+    </div>
+    
+    <Form className='formCenter'>  
+      <Form.Group className="mb-3 contactForm" controlId="exampleForm.ControlTextarea1">
+        <Form.Control as="textarea" rows={3} className="placeholderStyle inputForm"
           placeholder="Escribe aquí tu mensaje"/>
       </Form.Group>
     </Form>
-  
-    <Link to='/'>
-      <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
-    </Link>
+    <div className='centerButton'>
+      <Link to='/'>
+        <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
+      </Link>
+    </div>
+    
     </main>
     </>
     
