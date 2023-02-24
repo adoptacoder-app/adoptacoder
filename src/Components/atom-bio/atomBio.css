@@ -26,7 +26,7 @@ h2{
 @media (min-width: 429px){
 
     .bioTxt{
-        width: 90%;
+        width: 60%;
         border-radius: 2rem;
         background-color: transparent;
     }
