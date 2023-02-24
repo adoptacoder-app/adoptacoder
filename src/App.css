@@ -26,24 +26,26 @@
     --light: #E8F3FC;
     --dark: #000734;
     --medium: #100648;
+    --familyText: 'Poppins', sans-serif;
+    --familyCode: 'Fira Code', monospace;
 }
 
 h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--familyText);
     font-size: 2,25rem;
 }
 
 h3{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--familyText);
     font-size: 2,25rem;
 }
 
 h4{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--familyText);
 }
 
 button{
-    font-family: 'Fira Code', monospace; 
+    font-family: var(--familyCode); 
     border: none;
     font-weight: 500;
 }
@@ -54,9 +56,18 @@ a{
 }
 
 h4 {
-    font-family: 'Fira Code', monospace;
+    font-family: var(--familyCode)
 }
 
 p {
-    font-family: 'Fira Code', monospace;
+    font-family: var(--familyCode)
+}
+
+h5{
+    font-family: var(--familyText);
+    font-weight: bold;
+}
+
+.dropdownMenu{
+    font-family: var(--familyCode); 
 }

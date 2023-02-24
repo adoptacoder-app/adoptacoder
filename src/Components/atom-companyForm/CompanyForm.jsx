@@ -1,5 +1,8 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
+import AtomCharacteristics from '../atom-characteristics/atom-characteristics';
 import GenericDropdown from '../atom-dropdown/atom-dropdown';
+import AtomStack from '../atom-stack/atom-stack';
 
 function CompanyForm() {
   return (
@@ -9,19 +12,31 @@ function CompanyForm() {
       </section>
       <section className='dropdowns'>
         <div className='titleDrop1'>
-          <h3>¿Qué tipo de coder buscas?</h3>
+          <h5>¿Qué tipo de coder buscas?</h5>
         </div>
         <GenericDropdown title='Elige uno' option1='Full Stack' option2='Front End' option3='Back End' />
         <div className='titleDrop2'>
-          <h3>¿Qué experiencia debe tener?</h3>
+          <h5>¿Qué experiencia debe tener?</h5>
         </div>
         <GenericDropdown title='Elige uno' option1='Junior' option2='Mid' option3='Senior' />
       </section>
-      <section className=''>
-
+      <section className='selectStack'>
+        <div className='titleStack'>
+          <h5>¿Qué stack necesitas?</h5>
+        </div>
+        <AtomStack/>
       </section>
-      <section className=''>
+      <section className='selectCharacteric'>
+        <div>
+          <h5>¿Qué otras carácteristicas?</h5>
+        </div>
+        <AtomCharacteristics/>
       </section> 
+      <section className='searchCoder'>
+      <Button variant="primary" type="submit" className="submitButton">
+        ¡Busca tu coder!
+      </Button>
+      </section>
     </>  
   )
 }
