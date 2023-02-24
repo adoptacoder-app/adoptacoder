@@ -7,18 +7,38 @@ This project was created to connect coders with enterprises which want to take c
 
 
 
-### [adopt/a/coder]'s logo
-![Image text](./src/assets/img/img/icons/logo.jpg)
+## `[adopt/a/coder]'s logo`
+![Image text](./src/assets/design/logo.jpeg)
 
-###Page views:
+
+## `Home`
 ![Image text](./src/assets/design/home.jpeg)
+
+
+
+## `Gallery`
 ![Image text](./src/assets/design/gallery.jpeg)
+
+
+
+## `Form for coders`
 ![Image text](./src/assets/design/form-coders.jpeg)
+
+
+
+## `Form for enterprises`
 ![Image text](./src/assets/design/form-enterprises.jpeg)
+
+
+
+## `Contact`
 ![Image text](./src/assets/design/contact.jpeg)
 
-### Button colors
+
+
+## `Button colors`
 ![Image text](src/assets/design/button.jpeg)
+
 
 
 
