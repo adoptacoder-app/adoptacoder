@@ -8,10 +8,9 @@ This project was created to connect coders with enterprises which want to take c
 
 
 ### [adopt/a/coder]'s logo
-![This is an image](./src/assets/img/img/icons/logo.png)
+![Image text](./src/assets/img/img/icons/logo.jpg)
 
 ###Page views:
-![This is an image](./src/assets/design/home.jpeg)
 ![Image text](./src/assets/design/home.jpeg)
 ![Image text](./src/assets/design/gallery.jpeg)
 ![Image text](./src/assets/design/form-coders.jpeg)
