@@ -7,23 +7,42 @@ This project was created to connect coders with enterprises which want to take c
 
 
 
-### [adopt/a/coder]'s logo
-![This is an image](./src/assets/img/img/icons/logo.png)
+## `[adopt/a/coder]'s logo`
+![Image text](./src/assets/design/logo.jpeg)
 
-###Page views:
-![This is an image](./src/assets/design/home.jpeg)
+
+## `Home`
 ![Image text](./src/assets/design/home.jpeg)
+
+
+
+## `Gallery`
 ![Image text](./src/assets/design/gallery.jpeg)
+
+
+
+## `Form for coders`
 ![Image text](./src/assets/design/form-coders.jpeg)
+
+
+
+## `Form for enterprises`
 ![Image text](./src/assets/design/form-enterprises.jpeg)
+
+
+
+## `Contact`
 ![Image text](./src/assets/design/contact.jpeg)
 
-### Button colors
+
+
+## `Button colors`
 ![Image text](src/assets/design/button.jpeg)
 
 
 
-## Tech/framework used :electric_plug:
+
+## Tech/framework used :electric_plug
 * **HTML** - used to create the website's basic structure
 * **CSS** - used to style the user interface
 * **React**- used for web page development
