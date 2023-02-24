@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import "./atom-card.css"
 
-function GenericCard({img, name, bio, id}) {
+function GenericCard({img, name, id}) {
   return (
     <Card className="card">
       <div className='cardImg'>

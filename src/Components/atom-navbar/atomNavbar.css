@@ -7,10 +7,10 @@ nav{
 }
 
 .burgerIcon{
-    margin-right: 0.5rem;
     background-color: transparent;
     border: none;
     outline: none;
+    height: 30px;
 }
 
 .navbarStyles .navbar-nav .nav-link {
@@ -67,4 +67,43 @@ nav{
   color: var(--secondary);
   background-color: transparent;
   border: none;
+}
+
+@media (min-width: 429px){
+  
+  .navbarStyles p{
+    font-size: 1.6em;
+  }
+
+  .burgerIcon{
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar-toggler{
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 900px){
+
+  nav{
+    height: 13vh;
+  }
+
+  .navbar-collapse{
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+
+  .mr-auto{
+    background-color: transparent;
+    gap: 10px;
+  }
+
+  .navLink{
+    margin-right: 35px;
+    font-size: 1.5em;
+  }
+
 }

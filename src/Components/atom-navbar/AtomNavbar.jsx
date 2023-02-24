@@ -21,16 +21,15 @@ export default function AtomNavbar() {
           <span className="logoCoder">coder</span>
           <span className="logoBrackets">]</span>
         </p>
-      </Link>
-         
+      </Link> 
       <Navbar.Toggle aria-controls="responsive-navbar-nav">
         <Icon icon="circum:menu-burger" color="#e8f3fc" width="30" className="burgerIcon" />
       </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav"  >
         <Nav className="mr-auto">
-          <Nav.Link href="#">Home</Nav.Link>
-          <Nav.Link href="#">Perfil</Nav.Link>
-          <Nav.Link href="#">Mensajes</Nav.Link>
+          <Nav.Link href="/" className="navLink">Home</Nav.Link>
+          <Nav.Link href="#" className="navLink">Perfil</Nav.Link>
+          <Nav.Link href="#" className="navLink">Mensajes</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

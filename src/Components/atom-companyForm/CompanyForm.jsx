@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import AtomCharacteristics from '../atom-characteristics/atom-characteristics';
 import GenericDropdown from '../atom-dropdown/atom-dropdown';
 import AtomStack from '../atom-stack/atom-stack';
@@ -33,9 +34,12 @@ function CompanyForm() {
         <AtomCharacteristics/>
       </section> 
       <section className='searchCoder'>
-      <Button variant="primary" type="submit" className="submitButton">
-        ¡Busca tu coder!
-      </Button>
+        <Link to="/">
+          <Button variant="primary" type="submit" className="submitButton">
+          ¡Busca tu coder!
+          </Button>
+        </Link>
+      
       </section>
     </>  
   )

@@ -1,6 +1,12 @@
 .coderList-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     gap:2rem;
+}
+
+@media (min-width: 900px){
+    .coderList-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
 }

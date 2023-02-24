@@ -8,6 +8,8 @@ function Cards() {
               <h3>Coder Destacados</h3>
           </div>
           <CodersList/>
+          <div className='hidden'>
+          </div>
       </section>
   )
 }

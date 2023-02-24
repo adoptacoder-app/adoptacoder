@@ -7,6 +7,7 @@ import AtomBio from "../../Components/atom-bio/AtomBio"
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import AtomAgile from '../../Components/atom-agile/AtomAgile';
+import AtomNavbar from '../../Components/atom-navbar/AtomNavbar';
 
 
 
@@ -27,6 +28,8 @@ function CoderProfile() {
   }
 
   return (
+    <>
+    <AtomNavbar/>
     <div className='coderProfile-container'>
       <h1 className='coderProfile-title'>¡Hola!</h1>
       <CoderSnippet 
@@ -51,11 +54,14 @@ function CoderProfile() {
         sql={item.sql} 
         />
         <AtomAgile agile={item.agile} gitflow={item.gitflow} tdd={item.tdd}/>
-        <Link to={`/Contact/${id}`}>
-           <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
-        </Link>
-
+        <div className='centerButton'>
+          <Link to={`/Contact/${id}`}>
+            <Button variant="primary" type="submit" className="submitButton"> Envia el mensaje  </Button>
+          </Link>    
+        </div>
+        
     </div>
+    </>
   );
 }
 

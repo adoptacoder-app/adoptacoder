@@ -21,4 +21,14 @@ h2{
     box-sizing: border-box;
     word-wrap: break-word;
  
-  }
+}
+
+@media (min-width: 429px){
+
+    .bioTxt{
+        width: 90%;
+        border-radius: 2rem;
+        background-color: transparent;
+    }
+
+}

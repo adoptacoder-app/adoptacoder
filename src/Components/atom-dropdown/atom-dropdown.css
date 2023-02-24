@@ -1,6 +1,7 @@
 #dropdown-basic{
     background-color: var(--background-color);
     border-color: var(--secondary);
+    width: 90%;
 }
 
 .dropdownMenu{

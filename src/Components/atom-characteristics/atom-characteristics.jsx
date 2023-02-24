@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
+import './atom-characteristics.css'
 
 function AtomCharacteristics() {
   return (

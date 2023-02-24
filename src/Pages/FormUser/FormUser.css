@@ -14,6 +14,7 @@
 .placeholderStyle{
     background-color: #2e046d35;
     border-color:#9CFF1F;
+    height: 37px;
 }
 
 .placeholderStyle:hover{
@@ -88,4 +89,19 @@ border-radius: 100%;
 .profileIcon{
     background-color: transparent;
     color:#000734
+}
+
+.inputs{
+    color: white;
+}
+
+@media (min-width: 429px){
+    
+    .form-control{
+        width: 80%;
+    }
+
+    #dropdown-basic{
+        width: 80%;
+    }
 }

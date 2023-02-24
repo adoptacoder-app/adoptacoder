@@ -21,4 +21,11 @@ h2{
     box-sizing: border-box;
     word-wrap: break-word;
  
-  }
+}
+
+@media (min-width: 429px){
+    .somethingElse{
+        width: 90%;
+        border-radius: 2rem;
+    }
+}

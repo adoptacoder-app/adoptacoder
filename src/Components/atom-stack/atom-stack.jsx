@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
+import './atom-stack.css'
 
 function AtomStack() {
   return (
